@@ -102,7 +102,7 @@ try:
             option2 = input("Change which configuration: \n 1 - loadshifting \n 2 - peakshaving \n 3 - charging \n")
             if option2 == "1":
                 value = input("Input new value (0 or 1): ")
-                client.publish(topics[0],json.dumps({"loadshifting":bool(value)}))
+                client.publish(topics[0],json.dumps({"loadshifting":int(value)}))
             elif option2 == "2":
                 value = input("Input new value: ")
                 #notconcerned about value ranges here,but it has to change
@@ -110,7 +110,7 @@ try:
                 threshold = int(value)
             elif option2 == "3":
                 value = input("Input new value (0 or 1): ")
-                client.publish(topics[0],json.dumps({"charging":bool(value)}))
+                client.publish(topics[0],json.dumps({"charging":int(value)}))
             else:
                 print("Invalid option")
         elif option1 == "2":
