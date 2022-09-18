@@ -12,7 +12,7 @@ To install packages:
    pip install paho-mqtt
    ```
    
-## Part 1 - Decoding MODBUS Communication
+## Part 1 - T1 Decoding MODBUS Communication
 
 Communication works as the following:</br>
    in hex 0x:</br>
@@ -35,4 +35,18 @@ F8 + D6 - CRC </br>
 ![Product Name Screen Shot][product-screenshot]
 
 
+
+
+## Part 2 - T2 MQTT Communication
+
+I used the suggested tool MQTTX to monitor the mqtt comm.  
+Use the following images as example to configure the client in order to work correctly with the provided code:
+![MQTTX Config][Mqtt-config]
+
+
+![MQTTX Topics][Mqtt-topics]
+
+
 [product-screenshot]: images/Screenshot_20220915-140608_Chrome.jpg
+[Mqtt-config]: images/mqttx_config.jpg
+[Mqtt-topics]: images/mqttx_topics.jpg
