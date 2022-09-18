@@ -43,10 +43,11 @@ I used the suggested tool MQTTX to monitor the mqtt comm.
 Use the following images as example to configure the client in order to work correctly with the provided code:
 ![MQTTX Config][Mqtt-config]
 
+Make sure you subscribe to the shown topics, or you will not be able to monitor any messages.
 
 ![MQTTX Topics][Mqtt-topics]
 
 
 [product-screenshot]: images/Screenshot_20220915-140608_Chrome.jpg
-[Mqtt-config]: images/mqttx_config.png
-[Mqtt-topics]: images/mqttx_topics.png
+[Mqtt-config]: images/mqttx_config.PNG
+[Mqtt-topics]: images/mqttx_topics.PNG
