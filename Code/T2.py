@@ -52,9 +52,9 @@ def send_modbus(phase, size) -> int:
 
 
 default_payload = {
-    "loadshifting" : False,
+    "loadshifting" : 0,
     "peakshaving" : 0,
-    "charging" : False
+    "charging" : 0
 }
 
 #Broker address and port used in MQTT, if using MQTTX to monitor, this settings
