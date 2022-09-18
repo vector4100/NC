@@ -48,5 +48,5 @@ Use the following images as example to configure the client in order to work cor
 
 
 [product-screenshot]: images/Screenshot_20220915-140608_Chrome.jpg
-[Mqtt-config]: images/mqttx_config.jpg
-[Mqtt-topics]: images/mqttx_topics.jpg
+[Mqtt-config]: images/mqttx_config.png
+[Mqtt-topics]: images/mqttx_topics.png
