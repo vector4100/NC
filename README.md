@@ -13,4 +13,26 @@ To install packages:
    ```
    
 ## Part 1 - Decoding MODBUS Communication
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Communication works as the following:
+   in hex 0x
+   Byte1 - Device number
+   Byte2 - Function (03 = read, 06 = write) 
+   Byte3 - Register addr MSB
+   Byte4 - Register addr LSB
+   Byte5 - Number of registers to be read MSB
+   Byte6 - Number of registers to be read LSB
+   Byte7 e Byte8 = CRC
+
+So for example:
+“0103C5500002F8D6”
+01 - device
+03 - function
+C5 + 50 - Register function addr
+00 + 02 - Registers to be read
+F8 + D6 - CRC
+
+![Product Name Screen Shot][product-screenshot]
+
+
+[product-screenshot]: images/Screenshot_20220915-140608_Chrome.jpg
