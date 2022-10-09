@@ -1,4 +1,4 @@
-# NewCharge
+# NC
 Technical test
 
 All applications were made using Python 3.9.7, if you encouter any compatibility issues, please try running the codes in said version.
